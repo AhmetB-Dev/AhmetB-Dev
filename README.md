@@ -1,43 +1,106 @@
-<h1 align="left">👋 Hi, I'm Ahmet</h1>
+# 👋 Hi, I'm Ahmet
 
-###
+I'm an aspiring **Fullstack Developer** currently building my skills in frontend, backend and version control.
 
-<p align="left">🧠 Currently learning  <br>Core skills in fullstack web development – frontend, backend, and version control<br><br>🎯 Goal  <br>Develop scalable web apps and grow into a professional fullstack developer<br><br>📈 Next steps  <br>Deepening frontend frameworks and exploring backend technologies</p>
+I focus on writing clean code, understanding real project workflows and improving step by step through practical projects.
 
-###
+---
 
-<h2 align="left">Aspiring Fullstack Developer</h2>
+## 🚀 About Me
 
-###
+- 🔭 Currently working on small web applications and frontend projects
+- 🌱 Learning **JavaScript**, **TypeScript**, **React**, **Node.js** and backend fundamentals
+- 🧠 Interested in scalable web apps, clean UI and practical problem solving
+- 🎯 Goal: Become a professional fullstack developer
+- ⚡ Mindset: Build, learn, improve, repeat
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-</div>
+---
 
-###
+## 🛠️ Tech Stack
 
-<div align="center" style="width: 100%">
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/0" alt="Medium post 1"  />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/1" alt="Medium post 2"  />
-  </a>
-  <a target="_blank" href="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2">
-    <img style="width: 100%" src="https://github-readme-medium-recent-article.vercel.app/medium/@undefined/2" alt="Medium post 3"  />
-  </a>
-</div>
+### Frontend
+![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript)
 
-###
+### Currently Learning
+![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=node.js)
+![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github)
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AhmetB-Dev/AhmetB-Dev/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AhmetB-Dev/AhmetB-Dev/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AhmetB-Dev/AhmetB-Dev/output/pacman-contribution-graph.svg">
-</picture>
+---
 
-###
+## 📌 Featured Projects
+
+### 🧩 Join – Kanban Tool
+A task management application inspired by Kanban boards.
+
+**Tech:** JavaScript, HTML, CSS  
+**Focus:** DOM manipulation, task handling, UI structure
+
+[View Repository](https://github.com/AhmetB-Dev/Join)
+
+---
+
+### 🦈 Sharkie
+A browser-based JavaScript game project.
+
+**Tech:** JavaScript, HTML, CSS  
+**Focus:** Game logic, animations, object-oriented programming
+
+[View Repository](https://github.com/AhmetB-Dev/Sharkie)
+
+---
+
+### 🗳️ Poll App
+A voting/poll application built with TypeScript.
+
+**Tech:** TypeScript  
+**Focus:** Application logic, data handling, project structure
+
+[View Repository](https://github.com/AhmetB-Dev/poll-app)
+
+---
+
+### 🧠 Memory
+A memory card game project.
+
+**Tech:** TypeScript  
+**Focus:** State management, game logic, UI interaction
+
+[View Repository](https://github.com/AhmetB-Dev/memory)
+
+---
+
+## 📈 GitHub Stats
+
+![Ahmet's GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmetB-Dev&show_icons=true&theme=github_dark&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmetB-Dev&layout=compact&theme=github_dark&hide_border=true)
+
+---
+
+## 🧭 Current Roadmap
+
+| Area | Status |
+|---|---|
+| HTML / CSS | Improving |
+| JavaScript | Practicing |
+| TypeScript | Learning |
+| React | Next focus |
+| Backend | Starting soon |
+| Git / GitHub | Active practice |
+
+---
+
+## 🤝 Connect
+
+I'm currently focused on learning fullstack development and improving my portfolio through real projects.
+
+Feel free to check out my repositories and follow my progress.
+
+---
+
+> “Small consistent steps create real progress.”
