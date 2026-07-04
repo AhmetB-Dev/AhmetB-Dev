@@ -1,80 +1,46 @@
 # 👋 Hi, I'm Ahmet
 
-I'm an aspiring **Fullstack Developer** currently building my skills in frontend, backend and version control.
+I'm currently learning **fullstack web development** with a focus on frontend, backend basics and version control.
 
-I focus on writing clean code, understanding real project workflows and improving step by step through practical projects.
-
----
-
-## 🚀 About Me
-
-- 🔭 Currently working on small web applications and frontend projects
-- 🌱 Learning **JavaScript**, **TypeScript**, **React**, **Node.js** and backend fundamentals
-- 🧠 Interested in scalable web apps, clean UI and practical problem solving
-- 🎯 Goal: Become a professional fullstack developer
-- ⚡ Mindset: Build, learn, improve, repeat
+My goal is to improve step by step, build a solid technical foundation and grow into a professional fullstack developer.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧭 Current Focus
 
-### Frontend
+- Frontend development
+- Backend fundamentals
+- Version control
+- Clean and structured code
+- Practical learning through consistent practice
+
+---
+
+## 🛠️ Skills I'm Building
+
 ![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
 ![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=for-the-badge&logo=typescript)
-
-### Currently Learning
-![React](https://img.shields.io/badge/React-111827?style=for-the-badge&logo=react)
-![Node.js](https://img.shields.io/badge/Node.js-111827?style=for-the-badge&logo=node.js)
-![Git](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github)
 
 ---
 
-## 📌 Featured Projects
+## 🎯 Goal
 
-### 🧩 Join – Kanban Tool
-A task management application inspired by Kanban boards.
-
-**Tech:** JavaScript, HTML, CSS  
-**Focus:** DOM manipulation, task handling, UI structure
-
-[View Repository](https://github.com/AhmetB-Dev/Join)
+To develop scalable web applications and continuously improve as a fullstack developer.
 
 ---
 
-### 🦈 Sharkie
-A browser-based JavaScript game project.
+## 📚 Next Steps
 
-**Tech:** JavaScript, HTML, CSS  
-**Focus:** Game logic, animations, object-oriented programming
-
-[View Repository](https://github.com/AhmetB-Dev/Sharkie)
-
----
-
-### 🗳️ Poll App
-A voting/poll application built with TypeScript.
-
-**Tech:** TypeScript  
-**Focus:** Application logic, data handling, project structure
-
-[View Repository](https://github.com/AhmetB-Dev/poll-app)
+- Deepen frontend knowledge
+- Explore backend technologies
+- Improve project structure
+- Practice clean code principles
+- Build more confidence with real development workflows
 
 ---
 
-### 🧠 Memory
-A memory card game project.
-
-**Tech:** TypeScript  
-**Focus:** State management, game logic, UI interaction
-
-[View Repository](https://github.com/AhmetB-Dev/memory)
-
----
-
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 ![Ahmet's GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmetB-Dev&show_icons=true&theme=github_dark&hide_border=true)
 
@@ -82,25 +48,8 @@ A memory card game project.
 
 ---
 
-## 🧭 Current Roadmap
+## 🤝 About this Profile
 
-| Area | Status |
-|---|---|
-| HTML / CSS | Improving |
-| JavaScript | Practicing |
-| TypeScript | Learning |
-| React | Next focus |
-| Backend | Starting soon |
-| Git / GitHub | Active practice |
+This profile documents my learning progress as I work toward becoming a fullstack developer.
 
----
-
-## 🤝 Connect
-
-I'm currently focused on learning fullstack development and improving my portfolio through real projects.
-
-Feel free to check out my repositories and follow my progress.
-
----
-
-> “Small consistent steps create real progress.”
+I focus on consistency, practical improvement and building a strong foundation.
