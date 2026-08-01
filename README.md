@@ -1,55 +1,51 @@
-# 👋 Hi, I'm Ahmet
+Ahmet Balci
 
-I'm currently learning **fullstack web development** with a focus on frontend, backend basics and version control.
+Frontend developer focused on building modern, responsive and accessible web applications with Angular and TypeScript.
 
-My goal is to improve step by step, build a solid technical foundation and grow into a professional fullstack developer.
+I am currently expanding my backend skills with Node.js, Python and Django to become a fullstack developer.
 
----
+Tech Stack
 
-## 🧭 Current Focus
+Frontend
 
-- Frontend development
-- Backend fundamentals
-- Version control
-- Clean and structured code
-- Practical learning through consistent practice
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,angular&theme=dark" alt="HTML, CSS, JavaScript, TypeScript and Angular" />
+</p>
 
----
+Services and Development
 
-## 🛠️ Skills I'm Building
+<p>
+  <img src="https://skillicons.dev/icons?i=firebase,supabase,git&theme=dark" alt="Firebase, Supabase and Git" />
+</p>
 
-![HTML5](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5)
-![CSS3](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
-![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript)
+<p>
+  <img src="https://img.shields.io/badge/REST%20APIs-20232A?style=for-the-badge" alt="REST APIs" />
+  <img src="https://img.shields.io/badge/Angular%20Material-20232A?style=for-the-badge&logo=angular&logoColor=white" alt="Angular Material" />
+</p>
 
----
+Backend — Currently Learning
 
-## 🎯 Goal
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,py,django,postgres&theme=dark" alt="Node.js, Express, Python, Django and PostgreSQL" />
+</p>
 
-To develop scalable web applications and continuously improve as a fullstack developer.
+Backend development with Node.js and Django
 
----
+REST API design
 
-## 📚 Next Steps
+Authentication and authorization
 
-- Deepen frontend knowledge
-- Explore backend technologies
-- Improve project structure
-- Practice clean code principles
-- Build more confidence with real development workflows
+SQL databases and data modeling
 
----
+Automated testing
 
-## 📈 GitHub Activity
+Docker and Linux workflows
 
-![Ahmet's GitHub stats](https://github-readme-stats.vercel.app/api?username=AhmetB-Dev&show_icons=true&theme=github_dark&hide_border=true)
+Tools
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AhmetB-Dev&layout=compact&theme=github_dark&hide_border=true)
+<p>
+  <img src="https://skillicons.dev/icons?i=github,vscode,linux,docker,npm&theme=dark" alt="GitHub, Visual Studio Code, Linux, Docker and npm" />
+</p>
 
----
 
-## 🤝 About this Profile
-
-This profile documents my learning progress as I work toward becoming a fullstack developer.
-
-I focus on consistency, practical improvement and building a strong foundation.
+Open to junior frontend and future fullstack development opportunities.
