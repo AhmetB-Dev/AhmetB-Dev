@@ -231,9 +231,10 @@
     <text x="916" y="108" class="code" fill="#a855f7">"Frontend",</text>
 
     <text x="856" y="141" class="code" fill="#7c8dbb">learning:</text>
-    <text x="938" y="141" class="code" fill="#a855f7">["Node.js", "Django"],</text>
+    <text x="938" y="141" class="code" fill="#a855f7">["Node.js", "Python",</text>
+    <text x="938" y="164" class="code" fill="#a855f7">"Django"],</text>
 
-    <text x="856" y="174" class="code" fill="#7c8dbb">goal:</text>
-    <text x="904" y="174" class="code" fill="#a855f7">"Fullstack"</text>
+    <text x="856" y="190" class="code" fill="#7c8dbb">goal:</text>
+    <text x="904" y="190" class="code" fill="#a855f7">"Fullstack"</text>
   </g>
 </svg>
