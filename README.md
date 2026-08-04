@@ -1,10 +1,14 @@
-<p align="center">
+<picture>
+  <source
+    media="(max-width: 640px)"
+    srcset="./ahmet-github-banner-mobile.svg"
+  />
   <img
-    src="./ahmet-github-banner.svg"
+    src="./ahmet-github-banner-desktop.svg"
     alt="Ahmet Balci – Frontend Developer"
     width="100%"
   />
-</p>
+</picture>
 
 <br />
 
@@ -61,10 +65,4 @@
 
 <p>
   Learning backend development with Node.js, Python, Django and REST APIs.
-</p>
-
-<br />
-
-<p>
-  Open to junior frontend and future fullstack development opportunities.
 </p>
