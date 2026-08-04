@@ -36,9 +36,26 @@
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.15" fill="#4f8cff" opacity="0.42"/>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.15" fill="#4f8cff" opacity="0.58"/>
     </pattern>
+
+    <pattern id="dotsSparse" width="44" height="44" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.45" fill="#38bdf8" opacity="0.48"/>
+      <circle cx="28" cy="20" r="1.05" fill="#8b5cf6" opacity="0.36"/>
+    </pattern>
+
+    <linearGradient id="dotFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#ffffff" stop-opacity="0.42"/>
+      <stop offset="42%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="92%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.30"/>
+    </linearGradient>
+
+    <mask id="dotMask">
+      <rect x="0" y="0" width="1200" height="300" fill="url(#dotFade)"/>
+    </mask>
 
     <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="18"/>
@@ -111,24 +128,44 @@
   </g>
 
   <!-- Dotted background -->
-  <rect
-    x="430"
-    y="14"
-    width="735"
-    height="266"
-    fill="url(#dots)"
-    opacity="0.20"
-  >
-    <animate
-      attributeName="opacity"
-      values="0.16;0.34;0.16"
-      keyTimes="0;0.5;1"
-      dur="6s"
-      repeatCount="indefinite"
-      calcMode="spline"
-      keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
-    />
-  </rect>
+  <g mask="url(#dotMask)">
+    <rect
+      x="300"
+      y="10"
+      width="880"
+      height="278"
+      fill="url(#dots)"
+      opacity="0.34"
+    >
+      <animate
+        attributeName="opacity"
+        values="0.27;0.46;0.27"
+        keyTimes="0;0.5;1"
+        dur="6s"
+        repeatCount="indefinite"
+        calcMode="spline"
+        keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
+      />
+    </rect>
+
+    <rect
+      x="390"
+      y="18"
+      width="790"
+      height="262"
+      fill="url(#dotsSparse)"
+      opacity="0.28"
+    >
+      <animate
+        attributeName="opacity"
+        values="0.18;0.36;0.18"
+        keyTimes="0;0.5;1"
+        dur="7.5s"
+        begin="-2s"
+        repeatCount="indefinite"
+      />
+    </rect>
+  </g>
 
   <!-- Brighter points -->
   <g filter="url(#pointGlow)">
@@ -149,7 +186,7 @@
   <!-- Curved background lines -->
   <g fill="none" stroke-linecap="round">
     <path
-      d="M520 258 C660 180 745 180 865 226 C970 266 1065 255 1200 158"
+      d="M500 265 C650 180 765 176 885 224 C1000 270 1085 252 1140 188 C1172 150 1190 94 1200 42"
       stroke="#2563eb"
       stroke-opacity="0.48"
       stroke-width="2"
@@ -163,7 +200,7 @@
     </path>
 
     <path
-      d="M585 282 C720 200 820 210 918 246 C1030 288 1110 246 1200 184"
+      d="M565 290 C710 205 825 205 940 248 C1040 286 1112 250 1155 196 C1180 164 1194 124 1200 76"
       stroke="#8b5cf6"
       stroke-opacity="0.46"
       stroke-width="2"
@@ -178,10 +215,17 @@
     </path>
 
     <path
-      d="M850 300 C950 230 1030 236 1200 122"
+      d="M820 300 C930 238 1018 244 1085 214 C1150 184 1182 102 1200 24"
       stroke="#38bdf8"
-      stroke-opacity="0.24"
+      stroke-opacity="0.28"
       stroke-width="1.5"
+    />
+
+    <path
+      d="M930 300 C1020 258 1082 246 1128 200 C1170 158 1192 90 1200 12"
+      stroke="#6366f1"
+      stroke-opacity="0.20"
+      stroke-width="1.2"
     />
   </g>
 
