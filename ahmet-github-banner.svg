@@ -1,7 +1,7 @@
 <svg
   width="1200"
-  height="240"
-  viewBox="0 0 1200 240"
+  height="300"
+  viewBox="0 0 1200 300"
   preserveAspectRatio="xMidYMid meet"
   xmlns="http://www.w3.org/2000/svg"
   role="img"
@@ -9,15 +9,20 @@
 >
   <title id="title">Ahmet Balci – Frontend Developer</title>
   <desc id="description">
-    Dark animated GitHub banner focused on Angular, TypeScript,
-    accessibility and clean user interfaces.
+    Dark animated GitHub banner with glowing dots, curved lines and a code window.
   </desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#060910"/>
-      <stop offset="52%" stop-color="#0a1120"/>
+      <stop offset="0%" stop-color="#060912"/>
+      <stop offset="58%" stop-color="#07101f"/>
       <stop offset="100%" stop-color="#090714"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="62%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#9382ff"/>
     </linearGradient>
 
     <linearGradient id="accentLine" x1="0" y1="0" x2="0" y2="1">
@@ -25,28 +30,22 @@
       <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
 
-    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="58%" stop-color="#ffffff"/>
-      <stop offset="100%" stop-color="#8b8cff"/>
-    </linearGradient>
-
     <radialGradient id="ambientGlow">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.30"/>
+      <stop offset="0%" stop-color="#315cff" stop-opacity="0.30"/>
       <stop offset="46%" stop-color="#38bdf8" stop-opacity="0.08"/>
       <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
     </radialGradient>
 
-    <pattern id="dotPattern" width="28" height="28" patternUnits="userSpaceOnUse">
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
       <circle cx="2" cy="2" r="1.15" fill="#4f8cff" opacity="0.42"/>
     </pattern>
 
-    <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="18"/>
     </filter>
 
-    <filter id="pointGlow" x="-400%" y="-400%" width="900%" height="900%">
-      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+    <filter id="pointGlow" x="-500%" y="-500%" width="1000%" height="1000%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -55,14 +54,14 @@
 
     <style>
       .name {
-        font-size: 58px;
+        font-size: 60px;
         font-weight: 700;
-        letter-spacing: -1.2px;
+        letter-spacing: -1.4px;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       }
 
       .role {
-        font-size: 24px;
+        font-size: 25px;
         font-weight: 700;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       }
@@ -74,7 +73,7 @@
       }
 
       .code {
-        font-size: 14px;
+        font-size: 16px;
         font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
       }
 
@@ -87,31 +86,22 @@
     </style>
   </defs>
 
-  <!-- Base -->
-  <rect width="1200" height="240" rx="16" fill="url(#background)"/>
-  <rect
-    x="1"
-    y="1"
-    width="1198"
-    height="238"
-    rx="15"
-    fill="none"
-    stroke="#30363d"
-  />
+  <rect width="1200" height="300" rx="18" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#30363d"/>
 
   <!-- Ambient glow -->
   <g>
     <circle
-      cx="1035"
-      cy="35"
-      r="225"
+      cx="1030"
+      cy="36"
+      r="250"
       fill="url(#ambientGlow)"
-      filter="url(#blurGlow)"
+      filter="url(#softGlow)"
     />
     <animateTransform
       attributeName="transform"
       type="translate"
-      values="0 0;-22 16;0 0"
+      values="0 0;-22 15;0 0"
       keyTimes="0;0.5;1"
       dur="9s"
       repeatCount="indefinite"
@@ -120,18 +110,18 @@
     />
   </g>
 
-  <!-- Animated star-like dot field -->
+  <!-- Dotted background -->
   <rect
     x="430"
-    y="12"
-    width="720"
-    height="214"
-    fill="url(#dotPattern)"
+    y="14"
+    width="735"
+    height="266"
+    fill="url(#dots)"
     opacity="0.20"
   >
     <animate
       attributeName="opacity"
-      values="0.18;0.34;0.18"
+      values="0.16;0.34;0.16"
       keyTimes="0;0.5;1"
       dur="6s"
       repeatCount="indefinite"
@@ -140,92 +130,100 @@
     />
   </rect>
 
-  <!-- A few brighter points -->
+  <!-- Brighter points -->
   <g filter="url(#pointGlow)">
-    <circle cx="570" cy="55" r="2.2" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.25;1;0.25" dur="4.4s" repeatCount="indefinite"/>
+    <circle cx="560" cy="78" r="2.2" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.4s" repeatCount="indefinite"/>
     </circle>
-
-    <circle cx="700" cy="164" r="2" fill="#8b5cf6">
-      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.2s" begin="-1.4s" repeatCount="indefinite"/>
+    <circle cx="710" cy="188" r="2" fill="#8b5cf6">
+      <animate attributeName="opacity" values="0.2;0.95;0.2" dur="5.2s" begin="-1.4s" repeatCount="indefinite"/>
     </circle>
-
-    <circle cx="790" cy="84" r="1.8" fill="#7dd3fc">
-      <animate attributeName="opacity" values="0.18;0.85;0.18" dur="4.8s" begin="-2.2s" repeatCount="indefinite"/>
+    <circle cx="925" cy="92" r="1.9" fill="#7dd3fc">
+      <animate attributeName="opacity" values="0.2;0.9;0.2" dur="4.8s" begin="-2.2s" repeatCount="indefinite"/>
     </circle>
-
-    <circle cx="1080" cy="190" r="2.1" fill="#a855f7">
+    <circle cx="1110" cy="214" r="2.1" fill="#a855f7">
       <animate attributeName="opacity" values="0.2;1;0.2" dur="5.6s" begin="-0.8s" repeatCount="indefinite"/>
     </circle>
   </g>
 
-  <!-- Accent -->
-  <rect
-    x="46"
-    y="42"
-    width="6"
-    height="156"
-    rx="3"
-    fill="url(#accentLine)"
-  />
+  <!-- Curved background lines -->
+  <g fill="none" stroke-linecap="round">
+    <path
+      d="M520 258 C660 180 745 180 865 226 C970 266 1065 255 1200 158"
+      stroke="#2563eb"
+      stroke-opacity="0.48"
+      stroke-width="2"
+    >
+      <animate
+        attributeName="stroke-opacity"
+        values="0.26;0.62;0.26"
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path
+      d="M585 282 C720 200 820 210 918 246 C1030 288 1110 246 1200 184"
+      stroke="#8b5cf6"
+      stroke-opacity="0.46"
+      stroke-width="2"
+    >
+      <animate
+        attributeName="stroke-opacity"
+        values="0.22;0.58;0.22"
+        dur="8.5s"
+        begin="-2s"
+        repeatCount="indefinite"
+      />
+    </path>
+
+    <path
+      d="M850 300 C950 230 1030 236 1200 122"
+      stroke="#38bdf8"
+      stroke-opacity="0.24"
+      stroke-width="1.5"
+    />
+  </g>
+
+  <!-- Left accent -->
+  <rect x="43" y="46" width="6" height="190" rx="3" fill="url(#accentLine)"/>
 
   <!-- Main text -->
   <g opacity="0">
-    <text x="82" y="90" class="name" fill="url(#nameGradient)">
-      Ahmet Balci
-    </text>
+    <text x="78" y="104" class="name" fill="url(#nameGradient)">Ahmet Balci</text>
     <animate attributeName="opacity" from="0" to="1" dur="1s" fill="freeze"/>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 5;0 0"
-      dur="1s"
-      fill="freeze"
-    />
+    <animateTransform attributeName="transform" type="translate"
+      values="0 6;0 0" dur="1s" fill="freeze"/>
   </g>
 
   <g opacity="0">
-    <text x="84" y="134" class="role" fill="#38bdf8">
-      Frontend Developer
-    </text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="1s" fill="freeze"/>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 5;0 0"
-      begin="0.15s"
-      dur="1s"
-      fill="freeze"
-    />
+    <text x="80" y="148" class="role" fill="#38bdf8">Frontend Developer</text>
+    <animate attributeName="opacity" from="0" to="1" begin=".15s" dur="1s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate"
+      values="0 6;0 0" begin=".15s" dur="1s" fill="freeze"/>
   </g>
 
   <g opacity="0">
-    <text x="84" y="174" class="tagline" fill="#e5e7eb">
+    <text x="80" y="192" class="tagline" fill="#e5e7eb">
       Angular · TypeScript · Accessible Interfaces
     </text>
-    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="1s" fill="freeze"/>
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 5;0 0"
-      begin="0.3s"
-      dur="1s"
-      fill="freeze"
-    />
+    <animate attributeName="opacity" from="0" to="1" begin=".3s" dur="1s" fill="freeze"/>
   </g>
 
-  <!-- Small positioning chips -->
+  <!-- Positioning chips -->
   <g opacity="0">
-    <rect x="84" y="190" width="132" height="27" rx="13.5" fill="#101827" stroke="#245b73"/>
-    <text x="102" y="208" class="chip" fill="#7dd3fc">ACCESSIBILITY</text>
+    <rect x="80" y="214" width="133" height="29" rx="14.5"
+      fill="#101827" stroke="#245b73"/>
+    <text x="98" y="233" class="chip" fill="#7dd3fc">ACCESSIBILITY</text>
 
-    <rect x="226" y="190" width="94" height="27" rx="13.5" fill="#151124" stroke="#5c3b82"/>
-    <text x="245" y="208" class="chip" fill="#c084fc">CLEAN UI</text>
+    <rect x="224" y="214" width="98" height="29" rx="14.5"
+      fill="#151124" stroke="#5c3b82"/>
+    <text x="244" y="233" class="chip" fill="#c084fc">CLEAN UI</text>
 
-    <animate attributeName="opacity" from="0" to="1" begin="0.45s" dur="1s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin=".45s" dur="1s" fill="freeze"/>
   </g>
 
-  <!-- Floating code panel -->
+  <!-- Code window -->
   <g>
     <animateTransform
       attributeName="transform"
@@ -238,31 +236,32 @@
       keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
     />
 
-    <rect
-      x="820"
-      y="34"
-      width="330"
-      height="172"
-      rx="13"
-      fill="#080c18"
-      fill-opacity="0.56"
-      stroke="#58a6ff"
-      stroke-opacity="0.16"
-    />
+    <rect x="790" y="40" width="330" height="180" rx="15"
+      fill="#080c18" fill-opacity="0.60"
+      stroke="#58a6ff" stroke-opacity="0.28"/>
 
-    <text x="846" y="67" class="code" fill="#38bdf8">const</text>
-    <text x="890" y="67" class="code" fill="#7c8dbb">developer = {</text>
+    <line x1="790" y1="78" x2="1120" y2="78"
+      stroke="#58a6ff" stroke-opacity="0.20"/>
 
-    <text x="846" y="96" class="code" fill="#7c8dbb">stack:</text>
-    <text x="905" y="96" class="code" fill="#a855f7">["Angular", "TypeScript"],</text>
+    <circle cx="818" cy="60" r="5" fill="#c9d1d9"/>
+    <circle cx="838" cy="60" r="5" fill="#c9d1d9"/>
+    <circle cx="858" cy="60" r="5" fill="#c9d1d9"/>
 
-    <text x="846" y="125" class="code" fill="#7c8dbb">focus:</text>
-    <text x="905" y="125" class="code" fill="#a855f7">["Accessibility", "Clean UI"],</text>
+    <text x="820" y="111" class="code" fill="#38bdf8">&lt;app-root&gt;</text>
+    <text x="842" y="140" class="code" fill="#7dd3fc">&lt;header /&gt;</text>
+    <text x="842" y="169" class="code" fill="#a855f7">&lt;main /&gt;</text>
+    <text x="842" y="198" class="code" fill="#f472b6">&lt;footer /&gt;</text>
+  </g>
 
-    <text x="846" y="154" class="code" fill="#7c8dbb">learning:</text>
-    <text x="925" y="154" class="code" fill="#a855f7">["Node.js", "Django"],</text>
-
-    <text x="846" y="183" class="code" fill="#7c8dbb">goal:</text>
-    <text x="893" y="183" class="code" fill="#a855f7">"Fullstack"</text>
+  <!-- Code icon card -->
+  <g>
+    <rect x="1042" y="181" width="118" height="86" rx="16"
+      fill="#080c18" fill-opacity="0.74"
+      stroke="#38bdf8" stroke-opacity="0.58"/>
+    <text x="1067" y="237"
+      font-size="46"
+      font-weight="700"
+      font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+      fill="#7dd3fc">&lt;/&gt;</text>
   </g>
 </svg>

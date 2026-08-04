@@ -1,14 +1,10 @@
-<picture>
-  <source
-    media="(max-width: 640px)"
-    srcset="./ahmet-github-banner-mobile.svg"
-  />
+<p align="center">
   <img
-    src="./ahmet-github-banner-desktop.svg"
+    src="./ahmet-github-banner.svg"
     alt="Ahmet Balci – Frontend Developer"
     width="100%"
   />
-</picture>
+</p>
 
 <br />
 
