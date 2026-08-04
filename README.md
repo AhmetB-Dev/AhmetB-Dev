@@ -19,8 +19,6 @@
   />
 </p>
 
-<br />
-
 <h3>Services</h3>
 
 <p>
@@ -40,8 +38,6 @@
     alt="Angular Material"
   />
 </p>
-
-<br />
 
 <h3>Tools</h3>
 
