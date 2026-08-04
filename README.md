@@ -1,6 +1,6 @@
 <picture>
   <source
-    media="(max-width: 600px)"
+    media="(max-width: 640px)"
     srcset="./ahmet-github-banner-mobile.svg"
   />
   <img
