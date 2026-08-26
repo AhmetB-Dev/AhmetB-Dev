@@ -99,18 +99,6 @@
   </rect>
 
   <g filter="url(#pointGlow)">
-    <circle cx="300" cy="78" r="2.4" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.25;1;0.25"
-        dur="4.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="438" cy="166" r="2.2" fill="#8b5cf6">
-      <animate attributeName="opacity" values="0.2;0.95;0.2"
-        dur="5.2s" begin="-1.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="382" cy="316" r="2" fill="#7dd3fc">
-      <animate attributeName="opacity" values="0.18;0.9;0.18"
-        dur="4.8s" begin="-2.2s" repeatCount="indefinite"/>
-    </circle>
   </g>
 
   <rect x="30" y="35" width="6" height="190" rx="3"
