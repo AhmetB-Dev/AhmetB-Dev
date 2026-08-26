@@ -1,10 +1,10 @@
 <picture>
   <source
     media="(max-width: 640px)"
-    srcset="./ahmet-github-banner-mobile.svg"
+    srcset="./banner-mobile.svg"
   />
   <img
-    src="./ahmet-github-banner-desktop.svg"
+    src="./banner-desktop.svg"
     alt="Ahmet Balci – Fullstack Developer"
     width="100%"
   />
