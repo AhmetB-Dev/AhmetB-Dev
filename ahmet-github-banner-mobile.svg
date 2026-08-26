@@ -2,7 +2,7 @@
   preserveAspectRatio="xMidYMid meet"
   xmlns="http://www.w3.org/2000/svg"
   role="img" aria-labelledby="title description">
-  <title id="title">Ahmet Balci – Frontend Developer</title>
+  <title id="title">Ahmet Balci – Fullstack Developer</title>
   <desc id="description">Mobile animated GitHub profile banner.</desc>
 
   <defs>
@@ -35,14 +35,6 @@
 
     <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="16"/>
-    </filter>
-
-    <filter id="pointGlow" x="-400%" y="-400%" width="900%" height="900%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
     </filter>
 
     <style>
@@ -98,21 +90,6 @@
       keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
   </rect>
 
-  <g filter="url(#pointGlow)">
-    <circle cx="300" cy="78" r="2.4" fill="#38bdf8">
-      <animate attributeName="opacity" values="0.25;1;0.25"
-        dur="4.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="438" cy="166" r="2.2" fill="#8b5cf6">
-      <animate attributeName="opacity" values="0.2;0.95;0.2"
-        dur="5.2s" begin="-1.4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="382" cy="316" r="2" fill="#7dd3fc">
-      <animate attributeName="opacity" values="0.18;0.9;0.18"
-        dur="4.8s" begin="-2.2s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
   <rect x="30" y="35" width="6" height="190" rx="3"
     fill="url(#accentLine)"/>
 
@@ -124,7 +101,7 @@
   </g>
 
   <g opacity="0">
-    <text x="60" y="137" class="role" fill="#38bdf8">Frontend Developer</text>
+    <text x="60" y="137" class="role" fill="#38bdf8">Fullstack Developer</text>
     <animate attributeName="opacity" from="0" to="1"
       begin=".15s" dur="1s" fill="freeze"/>
     <animateTransform attributeName="transform" type="translate"

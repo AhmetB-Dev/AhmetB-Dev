@@ -5,7 +5,7 @@
   />
   <img
     src="./ahmet-github-banner-desktop.svg"
-    alt="Ahmet Balci – Frontend Developer"
+    alt="Ahmet Balci – Fullstack Developer"
     width="100%"
   />
 </picture>
@@ -54,7 +54,7 @@
 
 <br />
 
-<h2>Backend — Currently Learning</h2>
+<h2>Backend</h2>
 
 <p>
   <img
@@ -64,5 +64,5 @@
 </p>
 
 <p>
-  Learning backend development with Node.js, Python, Django and REST APIs.
+  Backend development with Node.js, Python, Django and REST APIs.
 </p>
