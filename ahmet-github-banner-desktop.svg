@@ -9,8 +9,8 @@
 >
   <title id="title">Ahmet Balci – Fullstack Developer</title>
   <desc id="description">
-    Dark animated GitHub banner for a fullstack developer focused on Angular, TypeScript,
-    Node.js, Python, Django, accessibility and clean user interfaces.
+    Dark animated GitHub banner focused on Angular, TypeScript, Python and Django,
+    accessibility and clean user interfaces.
   </desc>
 
   <defs>
@@ -43,6 +43,14 @@
 
     <filter id="blurGlow" x="-60%" y="-60%" width="220%" height="220%">
       <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="pointGlow" x="-400%" y="-400%" width="900%" height="900%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
 
     <style>
@@ -132,6 +140,10 @@
     />
   </rect>
 
+  <!-- A few brighter points -->
+  <g filter="url(#pointGlow)">
+  </g>
+
   <!-- Accent -->
   <rect
     x="46"
@@ -159,7 +171,7 @@
 
   <g opacity="0">
     <text x="84" y="134" class="role" fill="#38bdf8">
-      Fullstack Developer
+      Frontend Developer
     </text>
     <animate attributeName="opacity" from="0" to="1" begin="0.15s" dur="1s" fill="freeze"/>
     <animateTransform
@@ -174,7 +186,7 @@
 
   <g opacity="0">
     <text x="84" y="174" class="tagline" fill="#e5e7eb">
-      Angular · TypeScript · Accessible Interfaces
+      Angular · TypeScript · Python · Django
     </text>
     <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="1s" fill="freeze"/>
     <animateTransform
@@ -226,16 +238,16 @@
     <text x="846" y="67" class="code" fill="#38bdf8">const</text>
     <text x="890" y="67" class="code" fill="#7c8dbb">developer = {</text>
 
-    <text x="846" y="96" class="code" fill="#7c8dbb">stack:</text>
-    <text x="905" y="96" class="code" fill="#a855f7">["Angular", "TypeScript"],</text>
+    <text x="846" y="96" class="code" fill="#7c8dbb">frontend:</text>
+    <text x="927" y="96" class="code" fill="#a855f7">"Angular",</text>
 
-    <text x="846" y="125" class="code" fill="#7c8dbb">focus:</text>
-    <text x="905" y="125" class="code" fill="#a855f7">["Accessibility", "Clean UI"],</text>
+    <text x="846" y="125" class="code" fill="#7c8dbb">backend:</text>
+    <text x="917" y="125" class="code" fill="#a855f7">"Django",</text>
 
-    <text x="846" y="154" class="code" fill="#7c8dbb">learning:</text>
-    <text x="925" y="154" class="code" fill="#a855f7">["Node.js", "Django"],</text>
+    <text x="846" y="154" class="code" fill="#7c8dbb">language:</text>
+    <text x="925" y="154" class="code" fill="#a855f7">"Python",</text>
 
-    <text x="846" y="183" class="code" fill="#7c8dbb">goal:</text>
-    <text x="893" y="183" class="code" fill="#a855f7">"Fullstack"</text>
+    <text x="846" y="183" class="code" fill="#7c8dbb">api:</text>
+    <text x="884" y="183" class="code" fill="#a855f7">"REST"</text>
   </g>
 </svg>
