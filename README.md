@@ -8,6 +8,17 @@
 
 <br />
 
+<h2>About me</h2>
+
+<p>
+  I work as a Fullstack Developer across frontend and backend, turning ideas into complete applications.
+</p>
+
+<p>
+  My projects include user interfaces, REST APIs, authentication, databases and testing.
+  I also work with Docker, CI workflows and Linux-based deployments to bring applications beyond local development.
+</p>
+
 <h2>Tech Stack</h2>
 
 <h3>Frontend</h3>
@@ -100,3 +111,56 @@
     <img src="./assets/icons/light-png/vscode.png" alt="Visual Studio Code" width="48" />
   </picture>
 </p>
+
+<h2>Selected Projects</h2>
+
+<h3>Videoflix Backend</h3>
+<p>
+  Backend for a video streaming platform with authentication, asynchronous video processing, caching and authenticated HLS streaming.
+</p>
+<p>
+  <strong>Django · Django REST Framework · PostgreSQL · Redis · Docker · FFmpeg</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/videoflix/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/Videoflix-backend">Repository</a>
+</p>
+
+<hr />
+
+<h3>PollApp</h3>
+<p>
+  Responsive survey application built with Angular, featuring dynamic forms, reusable components and persistent data with Supabase.
+</p>
+<p>
+  <strong>Angular · TypeScript · SCSS · Supabase · PostgreSQL</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/poll-app/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/poll-app">Repository</a>
+</p>
+
+<hr />
+
+<h3>Coderr Backend</h3>
+<p>
+  REST API for a service marketplace with role-based access, offers, orders, reviews, filtering and permission-controlled workflows.
+</p>
+<p>
+  <strong>Django · Django REST Framework · Token Authentication · django-filter</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/coderr/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/Coderr-backend">Repository</a>
+</p>
+
+<h2>Portfolio</h2>
+
+<p>
+  Explore more projects, live demos and additional details on my
+  <a href="https://ahmet-balci.de/">portfolio</a>.
+</p>
+
