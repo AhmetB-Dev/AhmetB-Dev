@@ -101,27 +101,7 @@
   />
 
   <!-- Ambient glow: moved away from the name toward upper-middle/right -->
-  <g>
-    <circle
-      cx="865"
-      cy="88"
-      r="245"
-      fill="url(#ambientGlow)"
-      filter="url(#blurGlow)"
-    />
-    <animateTransform
-      attributeName="transform"
-      type="translate"
-      values="0 0;-22 16;0 0"
-      keyTimes="0;0.5;1"
-      dur="9s"
-      repeatCount="indefinite"
-      calcMode="spline"
-      keySplines="0.4 0 0.2 1;0.4 0 0.2 1"
-    />
-  </g>
-
-  <!-- Same animated dot field, with enough contrast for light mode -->
+<!-- Same animated dot field, with enough contrast for light mode -->
   <rect
     x="430"
     y="12"
@@ -229,10 +209,10 @@
       width="350"
       height="196"
       rx="13"
-      fill="#CEDDEC"
-      fill-opacity="0.72"
-      stroke="#315F8D"
-      stroke-opacity="0.42"
+      fill="#E8EDF4"
+      fill-opacity="0.78"
+      stroke="#6F8299"
+      stroke-opacity="0.36"
     />
 
     <text x="826" y="52" class="code" fill="#087F9F">const</text>

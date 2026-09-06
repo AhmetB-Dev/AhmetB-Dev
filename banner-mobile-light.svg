@@ -80,17 +80,7 @@
     fill="none" stroke="#a7b2c1"/>
 
   <!-- Glow moved away from name -->
-  <g>
-    <circle cx="390" cy="175" r="205"
-      fill="url(#ambientGlow)" filter="url(#blurGlow)"/>
-    <animateTransform attributeName="transform" type="translate"
-      values="0 0;-18 14;0 0" keyTimes="0;0.5;1"
-      dur="9s" repeatCount="indefinite"
-      calcMode="spline"
-      keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
-  </g>
-
-  <rect x="180" y="12" width="340" height="390"
+<rect x="180" y="12" width="340" height="390"
     fill="url(#dotPattern)" opacity="0.39">
     <animate attributeName="opacity"
       values="0.33;0.55;0.33" keyTimes="0;0.5;1"
@@ -148,8 +138,8 @@
 
     <!-- Same as dark card, only light-tinted -->
     <rect x="30" y="262" width="480" height="138" rx="14"
-      fill="#CEDDEC" fill-opacity=".76"
-      stroke="#315F8D" stroke-opacity=".44"/>
+      fill="#E8EDF4" fill-opacity=".80"
+      stroke="#6F8299" stroke-opacity=".36"/>
 
     <text x="52" y="292" class="code" fill="#3F536D">frontend:</text>
     <text x="148" y="292" class="code" fill="#2563EB">Angular</text>
