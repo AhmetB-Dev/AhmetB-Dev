@@ -114,7 +114,7 @@
 
 <h2>Selected Projects</h2>
 
-<h3>Videoflix Backend</h3>
+<h3><img src="./assets/project-icons/videoflix.svg" alt="Videoflix" width="24" />&nbsp; Videoflix Backend</h3>
 <p>
   Backend for a video streaming platform with authentication, asynchronous video processing, caching and authenticated HLS streaming.
 </p>
@@ -129,7 +129,7 @@
 
 <hr />
 
-<h3>PollApp</h3>
+<h3><img src="./assets/project-icons/pollapp.svg" alt="PollApp" width="24" />&nbsp; PollApp</h3>
 <p>
   Responsive survey application built with Angular, featuring dynamic forms, reusable components and persistent data with Supabase.
 </p>
@@ -144,7 +144,7 @@
 
 <hr />
 
-<h3>Coderr Backend</h3>
+<h3><img src="./assets/project-icons/coderr.svg" alt="Coderr" width="24" />&nbsp; Coderr Backend</h3>
 <p>
   REST API for a service marketplace with role-based access, offers, orders, reviews, filtering and permission-controlled workflows.
 </p>
