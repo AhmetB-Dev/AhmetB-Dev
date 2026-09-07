@@ -134,7 +134,7 @@
   Responsive survey application built with Angular, featuring dynamic forms, reusable components and persistent data with Supabase.
 </p>
 <p>
-  <strong>Angular · TypeScript · SCSS · Supabase · PostgreSQL</strong>
+  <strong>Angular · TypeScript · SCSS · Supabase</strong>
 </p>
 <p>
   <a href="https://ahmet-balci.de/projects/poll-app/">Live Demo</a>
