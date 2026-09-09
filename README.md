@@ -11,12 +11,11 @@
 <h2>About me</h2>
 
 <p>
-  I work as a Fullstack Developer across frontend and backend, turning ideas into complete applications.
+  I build fullstack applications across frontend and backend, turning ideas into complete and functional products.
 </p>
 
 <p>
-  My projects include user interfaces, REST APIs, authentication, databases and testing.
-  I also work with Docker, CI workflows and Linux-based deployments to bring applications beyond local development.
+  My projects include user interfaces, REST APIs, authentication, databases and testing. I also work with Docker, CI/CD workflows and Linux-based   deployments to take applications beyond local development.
 </p>
 
 <h2>Tech Stack</h2>
