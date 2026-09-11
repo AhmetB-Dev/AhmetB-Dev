@@ -88,7 +88,11 @@
   <g opacity="0">
     
     <animate attributeName="opacity" from="0" to="1" begin=".52s" dur=".55s" fill="freeze"/>
-    <animateTransform attributeName="transform" type="translate" values="24 0;0 0;0 -4;0 0" keyTimes="0;.18;.60;1" begin=".52s" dur="7.2s" repeatCount="indefinite" additive="sum" calcMode="spline" keySplines=".16 1 .3 1;.4 0 .2 1;.4 0 .2 1"/>
+    <!-- One-time entrance: never resets to the right after the intro. -->
+    <animateTransform attributeName="transform" type="translate" from="24 0" to="0 0" begin=".52s" dur=".75s" fill="freeze" calcMode="spline" keySplines=".16 1 .3 1"/>
+    <g>
+      <!-- After the intro, the code box only floats vertically in a seamless loop. -->
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 4;0 -4;0 0" keyTimes="0;.30;.72;1" begin="1.55s" dur="5.6s" repeatCount="indefinite" calcMode="spline" keySplines=".4 0 .2 1;.4 0 .2 1;.4 0 .2 1"/>
     <rect x="800" y="22" width="350" height="196" rx="13"
       fill="#080c18" fill-opacity=".56" stroke="#58a6ff" stroke-opacity=".16"/>
     <text x="826" y="52" class="code" fill="#38bdf8">const</text>
@@ -107,5 +111,6 @@
     <text x="888" y="172" class="code" fill="#a855f7">"Docker · Linux"</text>
 
     <text x="826" y="202" class="code" fill="#7c8dbb">&#125;</text>
+    </g>
   </g>
 </svg>
