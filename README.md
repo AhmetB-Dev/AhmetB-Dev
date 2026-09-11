@@ -156,6 +156,23 @@
   <a href="https://github.com/AhmetB-Dev/Coderr-backend">Repository</a>
 </p>
 
+<hr />
+
+<h3><img src="./assets/project-icons/join-360.png" alt="JOIN 360" width="24" />&nbsp; JOIN 360</h3>
+<p>
+  Kanban task management application with a collaborative frontend and an independently developed Django REST backend for authentication, contacts, tasks and subtasks.
+</p>
+<p>
+  <strong>HTML · CSS · JavaScript · Django · Django REST Framework · PostgreSQL · Redis · Docker · GitHub Actions</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/join/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/Join">Frontend Repository</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/join-backend">Backend Repository</a>
+</p>
+
 <h2>Portfolio</h2>
 
 <p>
