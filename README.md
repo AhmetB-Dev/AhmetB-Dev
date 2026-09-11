@@ -113,21 +113,6 @@
 
 <h2>Selected Projects</h2>
 
-<h3><img src="./assets/project-icons/videoflix.svg" alt="Videoflix" width="24" />&nbsp; Videoflix Backend</h3>
-<p>
-  Backend for a video streaming platform with authentication, asynchronous video processing, caching and authenticated HLS streaming.
-</p>
-<p>
-  <strong>Django · Django REST Framework · PostgreSQL · Redis · Docker · FFmpeg</strong>
-</p>
-<p>
-  <a href="https://ahmet-balci.de/projects/videoflix/">Live Demo</a>
-  ·
-  <a href="https://github.com/AhmetB-Dev/Videoflix-backend">Repository</a>
-</p>
-
-<hr />
-
 <h3><img src="./assets/project-icons/pollapp.svg" alt="PollApp" width="24" />&nbsp; PollApp</h3>
 <p>
   Responsive survey application built with Angular, featuring dynamic forms, reusable components and persistent data with Supabase.
@@ -143,17 +128,17 @@
 
 <hr />
 
-<h3><img src="./assets/project-icons/coderr.svg" alt="Coderr" width="24" />&nbsp; Coderr Backend</h3>
+<h3><img src="./assets/project-icons/videoflix.svg" alt="Videoflix" width="24" />&nbsp; Videoflix Backend</h3>
 <p>
-  REST API for a service marketplace with role-based access, offers, orders, reviews, filtering and permission-controlled workflows.
+  Backend for a video streaming platform with authentication, asynchronous video processing, caching and authenticated HLS streaming.
 </p>
 <p>
-  <strong>Django · Django REST Framework · Token Authentication · django-filter</strong>
+  <strong>Django · Django REST Framework · PostgreSQL · Redis · Docker · FFmpeg</strong>
 </p>
 <p>
-  <a href="https://ahmet-balci.de/projects/coderr/">Live Demo</a>
+  <a href="https://ahmet-balci.de/projects/videoflix/">Live Demo</a>
   ·
-  <a href="https://github.com/AhmetB-Dev/Coderr-backend">Repository</a>
+  <a href="https://github.com/AhmetB-Dev/Videoflix-backend">Repository</a>
 </p>
 
 <hr />
@@ -171,6 +156,21 @@
   <a href="https://github.com/AhmetB-Dev/Join">Frontend Repository</a>
   ·
   <a href="https://github.com/AhmetB-Dev/join-backend">Backend Repository</a>
+</p>
+
+<hr />
+
+<h3><img src="./assets/project-icons/coderr.svg" alt="Coderr" width="24" />&nbsp; Coderr Backend</h3>
+<p>
+  REST API for a service marketplace with role-based access, offers, orders, reviews, filtering and permission-controlled workflows.
+</p>
+<p>
+  <strong>Django · Django REST Framework · Token Authentication · django-filter</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/coderr/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/Coderr-backend">Repository</a>
 </p>
 
 <h2>Portfolio</h2>
