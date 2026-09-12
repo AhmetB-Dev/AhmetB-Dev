@@ -143,7 +143,7 @@
 
 <hr />
 
-<h3><img src="./assets/project-icons/join-360.png" alt="JOIN 360" width="24" />&nbsp; JOIN 360</h3>
+<h3><img src="./assets/project-icons/join-360.png" alt="JOIN" width="24" />&nbsp; JOIN</h3>
 <p>
   Kanban task management application with a collaborative frontend and an independently developed Django REST backend for authentication, contacts, tasks and subtasks.
 </p>
