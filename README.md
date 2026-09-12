@@ -11,11 +11,15 @@
 <h2>About me</h2>
 
 <p>
-  I work across frontend and backend development, building responsive user interfaces as well as REST APIs, authentication systems and database-backed applications.
+  I am a Fullstack Developer with a focus on Angular, TypeScript, Python, Django and Django REST Framework.
 </p>
 
 <p>
-  My frontend work focuses on Angular, TypeScript and JavaScript, while my backend projects use Python, Django and Django REST Framework. I also work with PostgreSQL, Redis, Docker, automated testing, CI/CD workflows and Linux-based deployments.
+  I work across frontend and backend development, building responsive user interfaces as well as REST APIs, authentication systems and database-backed applications. My frontend projects focus on Angular, TypeScript and JavaScript, while my backend projects use Python, Django and Django REST Framework.
+</p>
+
+<p>
+  I also work with PostgreSQL, Redis, Docker, automated testing, GitHub Actions, CI/CD workflows and Linux-based deployments. My focus is on clean structure, maintainable code and applications that can be tested and deployed reliably.
 </p>
 
 <h2>Tech Stack</h2>
@@ -113,27 +117,12 @@
 
 <h2>Selected Projects</h2>
 
-<h3><img src="./assets/project-icons/pollapp.svg" alt="PollApp" width="24" />&nbsp; PollApp</h3>
-<p>
-  Responsive survey application built with Angular, featuring dynamic forms, reusable components and persistent data with Supabase.
-</p>
-<p>
-  <strong>Angular · TypeScript · SCSS · Supabase</strong>
-</p>
-<p>
-  <a href="https://ahmet-balci.de/projects/poll-app/">Live Demo</a>
-  ·
-  <a href="https://github.com/AhmetB-Dev/poll-app">Repository</a>
-</p>
-
-<hr />
-
 <h3><img src="./assets/project-icons/videoflix.svg" alt="Videoflix" width="24" />&nbsp; Videoflix Backend</h3>
 <p>
-  Backend for a video streaming platform with authentication, asynchronous video processing, caching and authenticated HLS streaming.
+  Backend implementation for a video streaming platform built with Python, Django and Django REST Framework. It includes authentication, Redis caching, asynchronous video processing, FFmpeg-based transcoding, authenticated HLS streaming, automated testing and Docker-based deployment.
 </p>
 <p>
-  <strong>Django · Django REST Framework · PostgreSQL · Redis · Docker · FFmpeg</strong>
+  <strong>Python · Django · Django REST Framework · PostgreSQL · Redis · Docker · FFmpeg · HLS · CI/CD</strong>
 </p>
 <p>
   <a href="https://ahmet-balci.de/projects/videoflix/">Live Demo</a>
@@ -145,10 +134,10 @@
 
 <h3><img src="./assets/project-icons/join-360.png" alt="JOIN" width="24" />&nbsp; JOIN</h3>
 <p>
-  Kanban task management application with a collaborative frontend and an independently developed Django REST backend for authentication, contacts, tasks and subtasks.
+  Kanban-based task management application for organizing tasks and teams. The frontend was developed as a collaborative project with HTML, CSS and JavaScript. I later independently developed and integrated a Django REST backend for authentication, contacts, tasks and subtasks.
 </p>
 <p>
-  <strong>HTML · CSS · JavaScript · Django · Django REST Framework · PostgreSQL · Redis · Docker · GitHub Actions</strong>
+  <strong>HTML · CSS · JavaScript · Python · Django · Django REST Framework · PostgreSQL · Redis · Docker · GitHub Actions</strong>
 </p>
 <p>
   <a href="https://ahmet-balci.de/projects/join/">Live Demo</a>
@@ -162,10 +151,12 @@
 
 <h3><img src="./assets/project-icons/coderr.svg" alt="Coderr" width="24" />&nbsp; Coderr Backend</h3>
 <p>
-  REST API for a service marketplace with role-based access, offers, orders, reviews, filtering and permission-controlled workflows.
+  Backend implementation for a service marketplace built with Django REST Framework. It provides authentication, role-based permissions, offers, orders, reviews, filtering and permission-controlled workflows through a REST API.
 </p>
 <p>
-  <strong>Django · Django REST Framework · Token Authentication · django-filter</strong>
+  <strong>
+    Python · Django · Django REST Framework · REST API · PostgreSQL · Redis · Docker · Testing · GitHub Actions · CI/CD
+  </strong>
 </p>
 <p>
   <a href="https://ahmet-balci.de/projects/coderr/">Live Demo</a>
@@ -173,10 +164,24 @@
   <a href="https://github.com/AhmetB-Dev/Coderr-backend">Repository</a>
 </p>
 
+<hr />
+
+<h3><img src="./assets/project-icons/pollapp.svg" alt="PollApp" width="24" />&nbsp; PollApp</h3>
+<p>
+  Responsive Angular frontend for creating and evaluating dynamic surveys. The application uses reusable components, Reactive Forms, filtering and persistent data through Supabase.
+</p>
+<p>
+  <strong>Angular · TypeScript · Reactive Forms · SCSS · Supabase</strong>
+</p>
+<p>
+  <a href="https://ahmet-balci.de/projects/poll-app/">Live Demo</a>
+  ·
+  <a href="https://github.com/AhmetB-Dev/poll-app">Repository</a>
+</p>
+
 <h2>Portfolio</h2>
 
 <p>
-  Explore more projects, live demos and additional details on my
+  Explore my frontend and backend projects, live demos and additional technical details on my
   <a href="https://ahmet-balci.de/">portfolio</a>.
 </p>
-
