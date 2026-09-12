@@ -11,11 +11,11 @@
 <h2>About me</h2>
 
 <p>
-  I build fullstack applications across frontend and backend, turning ideas into complete and functional products.
+  I work across frontend and backend development, building responsive user interfaces as well as REST APIs, authentication systems and database-backed applications.
 </p>
 
 <p>
-  My projects include user interfaces, REST APIs, authentication, databases and testing. I also work with Docker, CI/CD workflows and Linux-based   deployments to take applications beyond local development.
+  My frontend work focuses on Angular, TypeScript and JavaScript, while my backend projects use Python, Django and Django REST Framework. I also work with PostgreSQL, Redis, Docker, automated testing, CI/CD workflows and Linux-based deployments.
 </p>
 
 <h2>Tech Stack</h2>
