@@ -84,7 +84,7 @@
   </picture>
 </p>
 
-<h3>DevOps &amp; Deployment</h3>
+<h3>Deployment</h3>
 <p>
   <img src="./assets/icons/docker.svg" alt="Docker" width="48" />
   <picture>
